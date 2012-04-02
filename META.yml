@@ -1,0 +1,32 @@
+---
+abstract: 'A bot to talk to when you are lonely and need a friend'
+author:
+  - 'Kevin Higgins <kev.higgins@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Bot-Giles
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  HTML::Strip: 0
+  LWP: 0
+  Lingua::EN::Conjugate: 0
+  Lingua::EN::Tagger: 0
+  Lingua::EN::VerbTense: 0
+  Net::OSCAR: 0
+  perl: 5.6.1
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.50
